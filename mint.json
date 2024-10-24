@@ -33,9 +33,9 @@
   ],
   "anchors": [
     {
-      "name": "Codex",
-      "icon": "book-open-cover",
-      "url": "https://codex.agent.so"
+      "name": "Website",
+      "icon": "globe-pointer",
+      "url": "https://agent.so"
     },
     {
       "name": "Community",
