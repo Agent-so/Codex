@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Agent.so Codex",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
@@ -33,26 +33,26 @@
   ],
   "anchors": [
     {
-      "name": "Documentation",
+      "name": "Codex",
       "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+      "url": "https://codex.agent.so"
     },
     {
       "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
+      "icon": "discord",
+      "url": "https://discord.gg/JUCjkEeSQZ"
     },
     {
       "name": "Blog",
       "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "url": "https://zine.agent.so"
     }
   ],
   "navigation": [
     {
       "group": "Get Started",
       "pages": [
-        "introduction",
+        "overview",
         "quickstart",
         "development"
       ]
