@@ -7,18 +7,18 @@
   },
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "primary": "#8666FF",
+    "light": "#E7E0FF",
+    "dark": "#281F4C",
     "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
+      "from": "#281F4C",
+      "to": "#E7E0FF"
     }
   },
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "url": "mailto:help@agent.so"
     }
   ],
   "topbarCtaButton": {
@@ -84,8 +84,6 @@
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://linkedin.com/company/mintlify"
+    "x": "https://x.com/AgentAGI"
   }
 }

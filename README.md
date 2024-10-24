@@ -12,17 +12,6 @@ A couple of things you'll find in the Codex:
 - Handpicked third-party resources you can use
 - *A lot more!*
 
-### Getting Started
-
-Depending on what you're looking to do, the Codex offers a few paths you can start on. Choose one of the paths below to begin:
-
-- Agent.so for Developers
-- Agent.so for Entrepreneurs
-- Agent.so for Enterprises
-- Agent.so for Promoters
-- Agent.so for Creators
-- Agent.so for Enthusiasts
-
 #### Troubleshooting
 
 If you ever get stuck, please reach out to help@agent.so or use the support icon on the bottom-right of our platform to connect to a member of our team.
