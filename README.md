@@ -1,32 +1,28 @@
-# Mintlify Starter Kit
+# The Agent.so Codex
 
-Click on `Use this template` to copy the Mintlify starter kit. The starter kit contains examples including
+The Agent.so Codex is a collection of technical writings, developer documentations, guides, and other resources to help you use AGI.
 
-- Guide pages
-- Navigation
-- Customizations
-- API Reference pages
-- Use of popular components
+The Codex is your go-to resource when building apps on-top of Agent.so, as well as a helper guide book for you to build, optimize, and scale using AI.
 
-### Development
+A couple of things you'll find in the Codex:
 
-Install the [Mintlify CLI](https://www.npmjs.com/package/mintlify) to preview the documentation changes locally. To install, use the following command
+- Essential knowledge about Agent.so
+- API documentation for available endpoints
+- Workflows you can use for your business
+- Handpicked third-party resources you can use
+- *A lot more!*
 
-```
-npm i -g mintlify
-```
+### Getting Started
 
-Run the following command at the root of your documentation (where mint.json is)
+Depending on what you're looking to do, the Codex offers a few paths you can start on. Choose one of the paths below to begin:
 
-```
-mintlify dev
-```
-
-### Publishing Changes
-
-Install our Github App to auto propagate changes from your repo to your deployment. Changes will be deployed to production automatically after pushing to the default branch. Find the link to install on your dashboard. 
+- Agent.so for Developers
+- Agent.so for Entrepreneurs
+- Agent.so for Enterprises
+- Agent.so for Promoters
+- Agent.so for Creators
+- Agent.so for Enthusiasts
 
 #### Troubleshooting
 
-- Mintlify dev isn't running - Run `mintlify install` it'll re-install dependencies.
-- Page loads as a 404 - Make sure you are running in a folder with `mint.json`
+If you ever get stuck, please reach out to help@agent.so or use the support icon on the bottom-right of our platform to connect to a member of our team.
