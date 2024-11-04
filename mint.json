@@ -1,36 +1,6 @@
 {
-  "$schema": "https://mintlify.com/schema.json",
   "name": "Agent.so Codex",
-  "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
-  },
-  "favicon": "/favicon.svg",
-  "colors": {
-    "primary": "#8666FF",
-    "light": "#E7E0FF",
-    "dark": "#281F4C",
-    "anchors": {
-      "from": "#281F4C",
-      "to": "#E7E0FF"
-    }
-  },
-  "topbarLinks": [
-    {
-      "name": "Support",
-      "url": "mailto:help@agent.so"
-    }
-  ],
-  "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
-  },
-  "tabs": [
-    {
-      "name": "API Reference",
-      "url": "api-reference"
-    }
-  ],
+  "$schema": "https://mintlify.com/schema.json",
   "anchors": [
     {
       "name": "Website",
@@ -48,14 +18,27 @@
       "url": "https://zine.agent.so"
     }
   ],
+  "colors": {
+    "anchors": {
+      "from": "#281F4C",
+      "to": "#E7E0FF"
+    },
+    "dark": "#281F4C",
+    "light": "#E7E0FF",
+    "primary": "#8666FF"
+  },
+  "favicon": "/favicon.svg",
+  "footerSocials": {
+    "x": "https://x.com/AgentAGI"
+  },
+  "logo": {
+    "dark": "/logo/dark.svg",
+    "light": "/logo/light.svg"
+  },
   "navigation": [
     {
       "group": "Get Started",
-      "pages": [
-        "overview",
-        "quickstart",
-        "development"
-      ]
+      "pages": ["overview", "quickstart", "development"]
     },
     {
       "group": "Essentials",
@@ -70,20 +53,60 @@
     },
     {
       "group": "API Documentation",
-      "pages": [
-        "api-reference/introduction"
-      ]
+      "pages": ["api-reference/introduction"]
     },
     {
       "group": "Endpoint Examples",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        {
+          "group": "Agent",
+          "pages": [
+            "api-reference/agent/get",
+            "api-reference/agent/create",
+            "api-reference/agent/delete"
+          ]
+        },
+        {
+          "group": "Agents",
+          "pages": [
+            "api-reference/agents/get",
+            "api-reference/agents/create",
+            "api-reference/agents/delete"
+          ]
+        },
+        {
+          "group": "Widget",
+          "pages": [
+            "api-reference/widget/get",
+            "api-reference/widget/create",
+            "api-reference/widget/delete"
+          ]
+        },
+        {
+          "group": "Widgets",
+          "pages": [
+            "api-reference/widgets/get",
+            "api-reference/widgets/create",
+            "api-reference/widgets/delete"
+          ]
+        }
       ]
     }
   ],
-  "footerSocials": {
-    "x": "https://x.com/AgentAGI"
-  }
+  "tabs": [
+    {
+      "name": "API Reference",
+      "url": "api-reference"
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "Dashboard",
+    "url": "https://dashboard.mintlify.com"
+  },
+  "topbarLinks": [
+    {
+      "name": "Support",
+      "url": "mailto:help@agent.so"
+    }
+  ]
 }
