@@ -100,34 +100,51 @@
         {
           "group": "Training",
           "pages": [
-            "api-reference/app/get",
-            "api-reference/app/create",
-            "api-reference/app/delete",
-            "api-reference/apps/get",
-            "api-reference/apps/create",
-            "api-reference/apps/delete"
+            "api-reference/agent/training/get",
+            "api-reference/agent/training/file/get",
+            "api-reference/agent/training/file/create",
+            "api-reference/agent/training/file/delete",
+            "api-reference/agent/training/files/get",
+            "api-reference/agent/training/files/create",
+            "api-reference/agent/training/files/delete",
+            "api-reference/agent/training/link/get",
+            "api-reference/agent/training/link/create",
+            "api-reference/agent/training/link/delete",
+            "api-reference/agent/training/links/get",
+            "api-reference/agent/training/links/create",
+            "api-reference/agent/training/links/delete",
+            "api-reference/agent/training/sitemap/get",
+            "api-reference/agent/training/sitemap/create",
+            "api-reference/agent/training/sitemap/delete",
+            "api-reference/agent/training/sitemaps/get",
+            "api-reference/agent/training/sitemaps/create",
+            "api-reference/agent/training/sitemaps/delete"
           ]
         },
         {
           "group": "Tools",
           "pages": [
-            "api-reference/app/get",
-            "api-reference/app/create",
-            "api-reference/app/delete",
-            "api-reference/apps/get",
-            "api-reference/apps/create",
-            "api-reference/apps/delete"
+            "api-reference/agent/tool/get",
+            "api-reference/agent/tool/create",
+            "api-reference/agent/tool/delete",
+            "api-reference/agent/tool/activate",
+            "api-reference/agent/tool/deactivate",
+            "api-reference/agent/tools/get",
+            "api-reference/agent/tools/create",
+            "api-reference/agent/tools/delete",
+            "api-reference/agent/tools/activate",
+            "api-reference/agent/tools/deactivate"
           ]
         },
         {
           "group": "Insights",
           "pages": [
-            "api-reference/widget/get",
-            "api-reference/widget/create",
-            "api-reference/widget/delete",
-            "api-reference/widgets/get",
-            "api-reference/widgets/create",
-            "api-reference/widgets/delete"
+            "api-reference/agent/insight/get",
+            "api-reference/agent/insight/create",
+            "api-reference/agent/insight/delete",
+            "api-reference/agent/insights/get",
+            "api-reference/agent/insights/create",
+            "api-reference/agent/insights/delete"
           ]
         }
       ]
@@ -138,56 +155,53 @@
         {
           "group": "Profiles",
           "pages": [
-            "api-reference/agent/get",
-            "api-reference/agent/create",
-            "api-reference/agent/delete",
-            "api-reference/agents/get",
-            "api-reference/agents/create",
-            "api-reference/agents/delete"
+            "api-reference/ambassador/profile/get",
+            "api-reference/ambassador/profile/create",
+            "api-reference/ambassador/profile/delete"
           ]
         },
         {
           "group": "Links",
           "pages": [
-            "api-reference/agent/get",
-            "api-reference/agent/create",
-            "api-reference/agent/delete",
-            "api-reference/agents/get",
-            "api-reference/agents/create",
-            "api-reference/agents/delete"
+            "api-reference/ambassador/link/get",
+            "api-reference/ambassador/link/create",
+            "api-reference/ambassador/link/delete",
+            "api-reference/ambassador/links/get",
+            "api-reference/ambassador/links/create",
+            "api-reference/ambassador/links/delete"
           ]
         },
         {
           "group": "Traffic",
           "pages": [
-            "api-reference/agent/get",
-            "api-reference/agent/create",
-            "api-reference/agent/delete",
-            "api-reference/agents/get",
-            "api-reference/agents/create",
-            "api-reference/agents/delete"
+            "api-reference/ambassador/traffic/get",
+            "api-reference/ambassador/traffic/create",
+            "api-reference/ambassador/traffic/delete",
+            "api-reference/ambassadors/traffic/get",
+            "api-reference/ambassadors/traffic/create",
+            "api-reference/ambassadors/traffic/delete"
           ]
         },
         {
           "group": "Referrals",
           "pages": [
-            "api-reference/agent/get",
-            "api-reference/agent/create",
-            "api-reference/agent/delete",
-            "api-reference/agents/get",
-            "api-reference/agents/create",
-            "api-reference/agents/delete"
+            "api-reference/ambassador/referral/get",
+            "api-reference/ambassador/referral/create",
+            "api-reference/ambassador/referral/delete",
+            "api-reference/ambassadors/referrals/get",
+            "api-reference/ambassadors/referrals/create",
+            "api-reference/ambassadors/referrals/delete"
           ]
         },
         {
           "group": "Commissions",
           "pages": [
-            "api-reference/agent/get",
-            "api-reference/agent/create",
-            "api-reference/agent/delete",
-            "api-reference/agents/get",
-            "api-reference/agents/create",
-            "api-reference/agents/delete"
+            "api-reference/ambassador/commission/get",
+            "api-reference/ambassador/commission/create",
+            "api-reference/ambassador/commission/delete",
+            "api-reference/ambassadors/commissions/get",
+            "api-reference/ambassadors/commissions/create",
+            "api-reference/ambassadors/commissions/delete"
           ]
         }
       ]
@@ -198,23 +212,25 @@
         {
           "group": "Conversations",
           "pages": [
-            "api-reference/app/get",
-            "api-reference/app/create",
-            "api-reference/app/delete",
-            "api-reference/apps/get",
-            "api-reference/apps/create",
-            "api-reference/apps/delete"
+            "api-reference/chat/conversation/get",
+            "api-reference/chat/conversation/create",
+            "api-reference/chat/conversation/delete",
+            "api-reference/chat/conversation/share",
+            "api-reference/chat/conversation/unshare",
+            "api-reference/chat/conversations/get",
+            "api-reference/chat/conversations/create",
+            "api-reference/chat/conversations/delete"
           ]
         },
         {
           "group": "Messages",
           "pages": [
-            "api-reference/app/get",
-            "api-reference/app/create",
-            "api-reference/app/delete",
-            "api-reference/apps/get",
-            "api-reference/apps/create",
-            "api-reference/apps/delete"
+            "api-reference/chat/message/get",
+            "api-reference/chat/message/create",
+            "api-reference/chat/message/delete",
+            "api-reference/chat/messages/get",
+            "api-reference/chat/messages/create",
+            "api-reference/chat/messages/delete"
           ]
         }
       ]
@@ -228,53 +244,53 @@
             "api-reference/app/get",
             "api-reference/app/create",
             "api-reference/app/delete",
-            "api-reference/apps/get",
-            "api-reference/apps/create",
-            "api-reference/apps/delete"
+            "api-reference/widgets/get",
+            "api-reference/widgets/create",
+            "api-reference/widgets/delete"
           ]
         },
         {
           "group": "Contacts",
           "pages": [
-            "api-reference/app/get",
-            "api-reference/app/create",
-            "api-reference/app/delete",
-            "api-reference/apps/get",
-            "api-reference/apps/create",
-            "api-reference/apps/delete"
+            "api-reference/widget/contact/get",
+            "api-reference/widget/contact/create",
+            "api-reference/widget/contact/delete",
+            "api-reference/widgets/contacts/get",
+            "api-reference/widgets/contacts/create",
+            "api-reference/widgets/contacts/delete"
           ]
         },
         {
           "group": "Conversations",
           "pages": [
-            "api-reference/app/get",
-            "api-reference/app/create",
-            "api-reference/app/delete",
-            "api-reference/apps/get",
-            "api-reference/apps/create",
-            "api-reference/apps/delete"
+            "api-reference/widget/conversation/get",
+            "api-reference/widget/conversation/create",
+            "api-reference/widget/conversation/delete",
+            "api-reference/widgets/conversations/get",
+            "api-reference/widgets/conversations/create",
+            "api-reference/widgets/conversations/delete"
           ]
         },
         {
           "group": "Messages",
           "pages": [
-            "api-reference/app/get",
-            "api-reference/app/create",
-            "api-reference/app/delete",
-            "api-reference/apps/get",
-            "api-reference/apps/create",
-            "api-reference/apps/delete"
+            "api-reference/widget/message/get",
+            "api-reference/widget/message/create",
+            "api-reference/widget/message/delete",
+            "api-reference/widgets/messages/get",
+            "api-reference/widgets/messages/create",
+            "api-reference/widgets/messages/delete"
           ]
         },
         {
           "group": "Integrations",
           "pages": [
-            "api-reference/app/get",
-            "api-reference/app/create",
-            "api-reference/app/delete",
-            "api-reference/apps/get",
-            "api-reference/apps/create",
-            "api-reference/apps/delete"
+            "api-reference/widget/integration/get",
+            "api-reference/widget/integration/create",
+            "api-reference/widget/integration/delete",
+            "api-reference/widgets/integrations/get",
+            "api-reference/widgets/integrations/create",
+            "api-reference/widgets/integrations/delete"
           ]
         }
       ]
@@ -285,23 +301,23 @@
         {
           "group": "Account",
           "pages": [
-            "api-reference/agent/get",
-            "api-reference/agent/create",
-            "api-reference/agent/delete",
-            "api-reference/agents/get",
-            "api-reference/agents/create",
-            "api-reference/agents/delete"
+            "api-reference/account/get",
+            "api-reference/account/create",
+            "api-reference/account/delete",
+            "api-reference/accounts/get",
+            "api-reference/accounts/create",
+            "api-reference/accounts/delete"
           ]
         },
         {
           "group": "Tokens",
           "pages": [
-            "api-reference/agent/get",
-            "api-reference/agent/create",
-            "api-reference/agent/delete",
-            "api-reference/agents/get",
-            "api-reference/agents/create",
-            "api-reference/agents/delete"
+            "api-reference/token/get",
+            "api-reference/token/create",
+            "api-reference/token/delete",
+            "api-reference/tokens/get",
+            "api-reference/tokens/create",
+            "api-reference/tokens/delete"
           ]
         }
       ]
