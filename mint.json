@@ -68,38 +68,153 @@
       "pages": ["api-reference/introduction"]
     },
     {
-      "group": "Endpoints",
+      "group": "Essentials",
       "pages": [
         {
-          "group": "Agent",
+          "group": "Apps",
           "pages": [
-            "api-reference/agent/get",
-            "api-reference/agent/create",
-            "api-reference/agent/delete"
+            "api-reference/app/get",
+            "api-reference/app/create",
+            "api-reference/app/delete",
+            "api-reference/apps/get",
+            "api-reference/apps/create",
+            "api-reference/apps/delete"
           ]
         },
         {
-          "group": "Agents",
+          "group": "Chat",
           "pages": [
+            "api-reference/app/get",
+            "api-reference/app/create",
+            "api-reference/app/delete",
+            "api-reference/apps/get",
+            "api-reference/apps/create",
+            "api-reference/apps/delete"
+          ]
+        },
+        {
+          "group": "Widgets",
+          "pages": [
+            "api-reference/widget/get",
+            "api-reference/widget/create",
+            "api-reference/widget/delete",
+            "api-reference/widgets/get",
+            "api-reference/widgets/create",
+            "api-reference/widgets/delete"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "Agents",
+      "pages": [
+        {
+          "group": "Essentials",
+          "pages": [
+            "api-reference/agent/get",
+            "api-reference/agent/create",
+            "api-reference/agent/delete",
             "api-reference/agents/get",
             "api-reference/agents/create",
             "api-reference/agents/delete"
           ]
         },
         {
-          "group": "Widget",
+          "group": "Training",
           "pages": [
-            "api-reference/widget/get",
-            "api-reference/widget/create",
-            "api-reference/widget/delete"
+            "api-reference/app/get",
+            "api-reference/app/create",
+            "api-reference/app/delete",
+            "api-reference/apps/get",
+            "api-reference/apps/create",
+            "api-reference/apps/delete"
           ]
         },
         {
-          "group": "Widgets",
+          "group": "Tools",
           "pages": [
+            "api-reference/app/get",
+            "api-reference/app/create",
+            "api-reference/app/delete",
+            "api-reference/apps/get",
+            "api-reference/apps/create",
+            "api-reference/apps/delete"
+          ]
+        },
+        {
+          "group": "Insights",
+          "pages": [
+            "api-reference/widget/get",
+            "api-reference/widget/create",
+            "api-reference/widget/delete",
             "api-reference/widgets/get",
             "api-reference/widgets/create",
             "api-reference/widgets/delete"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "Ambassadors",
+      "pages": [
+        {
+          "group": "Essentials",
+          "pages": [
+            "api-reference/agent/get",
+            "api-reference/agent/create",
+            "api-reference/agent/delete",
+            "api-reference/agents/get",
+            "api-reference/agents/create",
+            "api-reference/agents/delete"
+          ]
+        },
+        {
+          "group": "Traffic",
+          "pages": [
+            "api-reference/agent/get",
+            "api-reference/agent/create",
+            "api-reference/agent/delete",
+            "api-reference/agents/get",
+            "api-reference/agents/create",
+            "api-reference/agents/delete"
+          ]
+        },
+        {
+          "group": "Referrals",
+          "pages": [
+            "api-reference/agent/get",
+            "api-reference/agent/create",
+            "api-reference/agent/delete",
+            "api-reference/agents/get",
+            "api-reference/agents/create",
+            "api-reference/agents/delete"
+          ]
+        },
+        {
+          "group": "Commissions",
+          "pages": [
+            "api-reference/agent/get",
+            "api-reference/agent/create",
+            "api-reference/agent/delete",
+            "api-reference/agents/get",
+            "api-reference/agents/create",
+            "api-reference/agents/delete"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "Miscellaneous",
+      "pages": [
+        {
+          "group": "Account",
+          "pages": [
+            "api-reference/agent/get",
+            "api-reference/agent/create",
+            "api-reference/agent/delete",
+            "api-reference/agents/get",
+            "api-reference/agents/create",
+            "api-reference/agents/delete"
           ]
         }
       ]
