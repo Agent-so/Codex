@@ -68,10 +68,10 @@
       "pages": ["api-reference/introduction"]
     },
     {
-      "group": "Essentials",
+      "group": "Apps",
       "pages": [
         {
-          "group": "Apps",
+          "group": "Essentials",
           "pages": [
             "api-reference/app/get",
             "api-reference/app/create",
@@ -79,28 +79,6 @@
             "api-reference/apps/get",
             "api-reference/apps/create",
             "api-reference/apps/delete"
-          ]
-        },
-        {
-          "group": "Chat",
-          "pages": [
-            "api-reference/app/get",
-            "api-reference/app/create",
-            "api-reference/app/delete",
-            "api-reference/apps/get",
-            "api-reference/apps/create",
-            "api-reference/apps/delete"
-          ]
-        },
-        {
-          "group": "Widgets",
-          "pages": [
-            "api-reference/widget/get",
-            "api-reference/widget/create",
-            "api-reference/widget/delete",
-            "api-reference/widgets/get",
-            "api-reference/widgets/create",
-            "api-reference/widgets/delete"
           ]
         }
       ]
@@ -158,7 +136,18 @@
       "group": "Ambassadors",
       "pages": [
         {
-          "group": "Essentials",
+          "group": "Profiles",
+          "pages": [
+            "api-reference/agent/get",
+            "api-reference/agent/create",
+            "api-reference/agent/delete",
+            "api-reference/agents/get",
+            "api-reference/agents/create",
+            "api-reference/agents/delete"
+          ]
+        },
+        {
+          "group": "Links",
           "pages": [
             "api-reference/agent/get",
             "api-reference/agent/create",
@@ -204,10 +193,108 @@
       ]
     },
     {
-      "group": "Miscellaneous",
+      "group": "Chat",
+      "pages": [
+        {
+          "group": "Conversations",
+          "pages": [
+            "api-reference/app/get",
+            "api-reference/app/create",
+            "api-reference/app/delete",
+            "api-reference/apps/get",
+            "api-reference/apps/create",
+            "api-reference/apps/delete"
+          ]
+        },
+        {
+          "group": "Messages",
+          "pages": [
+            "api-reference/app/get",
+            "api-reference/app/create",
+            "api-reference/app/delete",
+            "api-reference/apps/get",
+            "api-reference/apps/create",
+            "api-reference/apps/delete"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "Widgets",
+      "pages": [
+        {
+          "group": "Essentials",
+          "pages": [
+            "api-reference/app/get",
+            "api-reference/app/create",
+            "api-reference/app/delete",
+            "api-reference/apps/get",
+            "api-reference/apps/create",
+            "api-reference/apps/delete"
+          ]
+        },
+        {
+          "group": "Contacts",
+          "pages": [
+            "api-reference/app/get",
+            "api-reference/app/create",
+            "api-reference/app/delete",
+            "api-reference/apps/get",
+            "api-reference/apps/create",
+            "api-reference/apps/delete"
+          ]
+        },
+        {
+          "group": "Conversations",
+          "pages": [
+            "api-reference/app/get",
+            "api-reference/app/create",
+            "api-reference/app/delete",
+            "api-reference/apps/get",
+            "api-reference/apps/create",
+            "api-reference/apps/delete"
+          ]
+        },
+        {
+          "group": "Messages",
+          "pages": [
+            "api-reference/app/get",
+            "api-reference/app/create",
+            "api-reference/app/delete",
+            "api-reference/apps/get",
+            "api-reference/apps/create",
+            "api-reference/apps/delete"
+          ]
+        },
+        {
+          "group": "Integrations",
+          "pages": [
+            "api-reference/app/get",
+            "api-reference/app/create",
+            "api-reference/app/delete",
+            "api-reference/apps/get",
+            "api-reference/apps/create",
+            "api-reference/apps/delete"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "Advanced",
       "pages": [
         {
           "group": "Account",
+          "pages": [
+            "api-reference/agent/get",
+            "api-reference/agent/create",
+            "api-reference/agent/delete",
+            "api-reference/agents/get",
+            "api-reference/agents/create",
+            "api-reference/agents/delete"
+          ]
+        },
+        {
+          "group": "Tokens",
           "pages": [
             "api-reference/agent/get",
             "api-reference/agent/create",
